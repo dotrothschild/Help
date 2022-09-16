@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_first">
+
+    <fragment
+        android:id="@+id/nav_first"
+        android:name="com.inzhood.help.ui.help.FirstFragment"
+        android:label="@string/menu_first"
+        tools:layout="@layout/fragment_first" />
+
+    <fragment
+        android:id="@+id/nav_second"
+        android:name="com.inzhood.help.ui.help.SecondFragment"
+        android:label="@string/menu_second"
+        tools:layout="@layout/fragment_second" />
+
+    <fragment
+        android:id="@+id/nav_third"
+        android:name="com.inzhood.help.ui.help.ThirdFragment"
+        android:label="@string/menu_third"
+        tools:layout="@layout/fragment_third" />
+    <fragment
+        android:id="@+id/nav_fourth"
+        android:name="com.inzhood.help.ui.help.FourthFragment"
+        android:label="fragment_fourth"
+        tools:layout="@layout/fragment_fourth" />
+    <fragment
+        android:id="@+id/nav_fifth"
+        android:name="com.inzhood.help.ui.help.FifthFragment"
+        android:label="fragment_fifth"
+        tools:layout="@layout/fragment_fifth" />
+</navigation>
